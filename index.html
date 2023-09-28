@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Главная</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
+     <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+   
+</head>
+<body>
+	<div class="calc">
+		<div class="expression">
+			<input type="text"  checked="" class="result" placeholder="Put some expression...">
+		</div>
+		<div class="wrap__button">
+			<div class="row">
+				<button class="red button">ac</button>
+				<button class="red button">c</button>
+				<button class="button">^</button>
+				<button class="button">/</button>
+			</div>
+			<div class="row">
+				<button class="button">7</button>
+				<button class="button">8</button>
+				<button class="button">9</button>
+				<button class="button">*</button>
+			</div>
+			<div class="row">
+				<button class="button">4</button>
+				<button class="button">5</button>
+				<button class="button">6</button>
+				<button class="button">-</button>
+			</div>
+			<div class="row">
+				<button class="button">1</button>
+				<button class="button">2</button>
+				<button class="button">3</button>
+				<button class="big-button button">=</button>
+			</div>
+			<div class="row bottom">
+				<button class="button">0</button>
+				<button class="button">.</button>
+				<button class="button">+</button>
+			</div>
+		</div>
+</div>
+	<script src="js/token.js"></script>
+	<script src="js/rpn.js"></script>
+	<script src="js/solver.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
